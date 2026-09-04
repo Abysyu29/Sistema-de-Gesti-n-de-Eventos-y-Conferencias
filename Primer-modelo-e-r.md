@@ -16,7 +16,7 @@ Este es mi primer modelo entidad-relación para la plataforma. Lo hice para most
 
 ## Diagrama entidad-relación
 
-Para hacer el diagrama usé la forma clásica de representar un modelo entidad-relación:
+Para hacer el diagrama usé la forma de representar un modelo entidad-relación:
 
 ```mermaid
 flowchart TB
