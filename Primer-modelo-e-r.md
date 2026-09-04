@@ -13,17 +13,10 @@
 
 Este es mi primer modelo entidad-relación para la plataforma. Lo hice para mostrar cómo se conectan las personas con los eventos, las entradas, los pagos y las evaluaciones.
 
-El modelo es inicial y se puede ampliar después. En otra versión se podrían agregar sesiones, agenda, conferencistas, patrocinadores, facturación, modalidad virtual y notificaciones.
 
+## Diagrama entidad-relación
 
-## Diagrama entidad-relación clásico
-
-Este archivo presenta el primer modelo usando la notación clásica de un diagrama entidad-relación:
-
-- Los rectángulos representan entidades.
-- Los círculos representan atributos.
-- Los rombos representan relaciones.
-- Las etiquetas `1` y `N` muestran relaciones de uno a muchos.
+Para hacer el diagrama usé la forma clásica de representar un modelo entidad-relación:
 
 ```mermaid
 flowchart TB
@@ -166,8 +159,6 @@ flowchart TB
     class U1,U2,U3,U4,U5,E1,E2,E3,E4,E5,I1,I2,I3,T1,T2,T3,T4,EN1,EN2,EN3,EN4,P1,P2,P3,P4,S1,S2,S3,SP1,SP2,SP3,SP4,EV1,EV2,EV3 atributo;
     class r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11 relacion;
 ```
-
-En GitHub, el bloque anterior se visualiza como un diagrama gráfico cuando se abre este archivo.
 
 <!-- Diagrama anterior conservado como referencia, pero no visible.
 ```mermaid
