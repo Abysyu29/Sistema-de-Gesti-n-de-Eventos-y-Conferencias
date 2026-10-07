@@ -1,5 +1,7 @@
 # Informe de aplicación de normalización
 
+## Plataforma de Gestión de Eventos y Conferencias
+
 ### Información del proyecto
 
 - **Autor:** Andrés Sebastián Pinzón Gutiérrez
