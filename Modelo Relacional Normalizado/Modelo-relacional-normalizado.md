@@ -19,14 +19,14 @@ En este documento presenta el modelo relacional. Se organiza usuarios, roles, ev
 
 Los dominios en este proyecto expresan los tipos de dato y sus longitudes o precisiones.
 
-`BIGINT IDENTITY` representa un entero largo autogenerado.
-`BIGINT`, un entero largo.
-`INTEGER`, un entero.
-`SMALLINT`, un entero pequeño.
-`VARCHAR(n)`, texto de hasta `n` caracteres.
-`TEXT`, texto sin longitud fija.
-`NUMERIC(p,s)`, un número decimal de `p` dígitos totales y `s` decimales.
-`DATE`, una fecha.
+`BIGINT IDENTITY` representa un entero largo autogenerado;
+`BIGINT`, un entero largo;
+`INTEGER`, un entero;
+`SMALLINT`, un entero pequeño;
+`VARCHAR(n)`, texto de hasta `n` caracteres;
+`TEXT`, texto sin longitud fija;
+`NUMERIC(p,s)`, un número decimal de `p` dígitos totales y `s` decimales;
+`DATE`, una fecha;
 `TIMESTAMPTZ`, fecha y hora con zona horaria.
 
 `PK` es clave primaria, `FK` clave foránea y `UK` una clave única. Salvo las columnas indicadas como opcionales, los atributos son obligatorios. Las reglas de valores permitidos aparecen en la columna «Clave / regla».

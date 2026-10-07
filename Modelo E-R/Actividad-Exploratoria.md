@@ -108,9 +108,9 @@ Como tendencia, los formularios y entradas digitales deben ser utilizables por p
 
 ## 3. Relación de los conceptos con el proyecto
 
-La base de datos inicial debe relacionar al usuario con el evento por medio de una inscripción y una entrada. La entrada debe mostrar su precio y los servicios incluidos. El pago debe guardar la compra, el control de ingreso debe registrar la asistencia y la evaluación debe guardar la opinión del participante. Así se pueden obtener las estadísticas solicitadas de una forma organizada.
+La base de datos debe relacionar al usuario con el evento por medio de una inscripción y una entrada. La entrada debe mostrar su precio y los servicios incluidos. El pago debe guardar la compra, el control de ingreso debe registrar la asistencia y la evaluación debe guardar la opinión del participante. Así se pueden obtener las estadísticas solicitadas de una forma organizada.
 
-Este modelo entidad-relación se plantea de forma extensible, pero conserva un alcance apropiado: incorpora usuarios, eventos, espacios, entradas, servicios, pagos, accesos y evaluaciones. Las sesiones, conferencistas, modalidades virtuales y nuevos métodos de pago se dejan para etapas posteriores.
+En este modelo entidad-relación se plantea de forma extensible, pero conserva un alcance apropiado: incorpora usuarios, eventos, espacios, entradas, servicios, pagos, accesos y evaluaciones. Las sesiones, conferencistas, modalidades virtuales y nuevos métodos de pago se dejan para etapas posteriores.
 
 ## 4. Fuentes de consulta y verificación
 
@@ -122,4 +122,4 @@ Este modelo entidad-relación se plantea de forma extensible, pero conserva un a
 
 ## Conclusión
 
-En esta plataforma se debe tratar el evento como el centro de la operación, pero mantener separadas las personas, las entradas, los pagos, los servicios, los accesos y las evaluaciones. Esta separación favorece la integridad de los datos y permite generar estadísticas mediante consultas. En el modelo se deja una base comprensible para que, etapas posteriores, se agreguen eventos híbridos, integraciones externas y analítica más avanzada.
+En esta plataforma debe tratar el evento como el centro de la operación, pero mantener separadas las personas, las entradas, los pagos, los servicios, los accesos y las evaluaciones. Esta separación favorece la integridad de los datos y permite generar estadísticas mediante consultas. En el modelo se deja una base comprensible para que, etapas posteriores, se agreguen eventos híbridos, integraciones externas y analítica más avanzada.
