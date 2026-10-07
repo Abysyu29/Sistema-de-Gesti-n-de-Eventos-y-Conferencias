@@ -11,7 +11,7 @@
 
 ### Introducción
 
-Una plataforma de gestión de eventos y conferencias ayuda a organizar todo lo relacionado con un evento: su creación, el registro de asistentes, la venta de entradas, el control de ingreso y la evaluación final. Para este proyecto se propone una base de datos relacional que permita guardar la información de forma ordenada y consultar datos sobre ingresos, asistencia y uso de los espacios.
+Una plataforma de gestión de eventos y conferencias ayuda a organizar todo lo relacionado con un evento: su creación, el registro de asistentes, la venta de entradas, el control de ingreso y la evaluación final. Para este proyecto se propone una base de datos que permita guardar la información de forma ordenada y consultar datos sobre ingresos, asistencia y uso de los espacios.
 
 
 ## 1. Conceptos importantes y relevantes
@@ -84,7 +84,7 @@ El registro previo, las entradas digitales y los códigos QR reducen filas y fac
 
 ### 2.3 Reportes y analítica
 
-Los organizadores necesitan saber cuántas entradas se vendieron, cuántas personas asistieron y qué espacios se utilizaron. En esta primera versión esos datos se pueden obtener con consultas y reportes sencillos. Más adelante se podrían mostrar en un tablero.
+Los organizadores necesitan saber cuántas entradas se vendieron, cuántas personas asistieron y qué espacios se utilizaron.
 
 ### 2.4 Personalización mediante datos
 
@@ -92,11 +92,11 @@ El historial de inscripciones y evaluaciones podría servir en el futuro para re
 
 ### 2.5 Automatización e inteligencia artificial
 
-En plataformas actuales se automatizan confirmaciones, recordatorios, certificados, encuestas y alertas de capacidad. La inteligencia artificial también puede apoyar recomendaciones y análisis de comentarios. Para el alcance inicial del proyecto, estos temas se dejan como posibilidades futuras y no forman parte del primer modelo.
+En plataformas actuales se automatizan confirmaciones, recordatorios, certificados, encuestas y alertas de capacidad. La inteligencia artificial también puede apoyar recomendaciones y análisis de comentarios. Para el alcance inicial del proyecto, estos temas se dejan como posibilidades futuras y no forman parte del modelo.
 
 ### 2.6 Integración entre plataformas
 
-Las plataformas modernas suelen integrarse con pasarelas de pago, correo electrónico, calendarios, videoconferencia, lectores QR y herramientas de analítica. En este primer ejercicio basta con modelar el pago y el control de ingreso como información de la base de datos; las integraciones externas pueden estudiarse en una etapa posterior.
+Las plataformas modernas suelen integrarse con pasarelas de pago, correo electrónico, calendarios, videoconferencia, lectores QR y herramientas de analítica. Aquí basta con modelar el pago y el control de ingreso como información de la base de datos; las integraciones externas son posiblidades a futuro en caso que el proyecto lo necesite.
 
 ### 2.7 Privacidad, seguridad y cumplimiento
 
@@ -110,11 +110,9 @@ Como tendencia, los formularios y entradas digitales deben ser utilizables por p
 
 La base de datos inicial debe relacionar al usuario con el evento por medio de una inscripción y una entrada. La entrada debe mostrar su precio y los servicios incluidos. El pago debe guardar la compra, el control de ingreso debe registrar la asistencia y la evaluación debe guardar la opinión del participante. Así se pueden obtener las estadísticas solicitadas de una forma organizada.
 
-El primer modelo entidad-relación se plantea de forma extensible, pero conserva un alcance apropiado para Bases de Datos I: incorpora usuarios, eventos, espacios, entradas, servicios, pagos, accesos y evaluaciones. Las sesiones, conferencistas, modalidades virtuales y nuevos métodos de pago se dejan para etapas posteriores.
+Este modelo entidad-relación se plantea de forma extensible, pero conserva un alcance apropiado: incorpora usuarios, eventos, espacios, entradas, servicios, pagos, accesos y evaluaciones. Las sesiones, conferencistas, modalidades virtuales y nuevos métodos de pago se dejan para etapas posteriores.
 
 ## 4. Fuentes de consulta y verificación
-
-Las siguientes fuentes son organizaciones o entidades oficiales y sus enlaces corresponden a sus páginas institucionales.
 
 - ISO. [ISO 20121:2024, sistemas de gestión de la sostenibilidad de eventos](https://www.iso.org/standard/86389.html). La página oficial identifica la norma, su edición 2024 y su aplicación a la gestión sostenible de eventos.
 - ISO/IEC. [ISO/IEC 27001:2022, sistemas de gestión de seguridad de la información](https://www.iso.org/isoiec-27001-information-security.html). La página oficial describe los requisitos de un sistema de gestión de seguridad de la información.
@@ -124,4 +122,4 @@ Las siguientes fuentes son organizaciones o entidades oficiales y sus enlaces co
 
 ## Conclusión
 
-La plataforma debe tratar el evento como el centro de la operación, pero mantener separadas las personas, las entradas, los pagos, los servicios, los accesos y las evaluaciones. Esta separación favorece la integridad de los datos y permite generar estadísticas mediante consultas. El modelo inicial deja una base comprensible para que, en cursos o etapas posteriores, se agreguen eventos híbridos, integraciones externas y analítica más avanzada.
+En esta plataforma se debe tratar el evento como el centro de la operación, pero mantener separadas las personas, las entradas, los pagos, los servicios, los accesos y las evaluaciones. Esta separación favorece la integridad de los datos y permite generar estadísticas mediante consultas. En el modelo se deja una base comprensible para que, etapas posteriores, se agreguen eventos híbridos, integraciones externas y analítica más avanzada.

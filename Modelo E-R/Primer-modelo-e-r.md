@@ -11,12 +11,12 @@
 
 ### ¿Qué muestra este modelo?
 
-Este es mi primer modelo entidad-relación para la plataforma. Lo hice para mostrar cómo se conectan las personas con los eventos, las entradas, los pagos y las evaluaciones.
+Primer modelo entidad-relación para la plataforma. Se hace para mostrar cómo se conectan las personas con los eventos, las entradas, los pagos y las evaluaciones.
 
 
 ## Diagrama entidad-relación
 
-Para hacer el diagrama usé la forma de representar un modelo entidad-relación:
+Para hacer el diagrama usé esta forma de representar un modelo entidad-relación en el cual se identifica cada entidad, sus propiedades o atributos y sus conexiones con otra entidad por medio de mermaid para dar el diagrama a continuación:
 
 ```mermaid
 flowchart TB
