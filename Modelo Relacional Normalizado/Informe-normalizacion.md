@@ -13,7 +13,7 @@
 
 Este informe documenta el paso del primer modelo E-R de la plataforma de gestión de eventos a relaciones normalizadas. Se toma como base el modelo y las reglas del documento de la primera entrega, conservando las entidades y relaciones necesarias para administrar usuarios, roles, eventos, espacios, inscripciones, entradas, pagos, servicios, accesos y evaluaciones.
 
-La normalización reduce duplicidad y anomalías de inserción, actualización y eliminación. El resultado se lleva a tercera forma normal (3FN), que es adecuada para las necesidades transaccionales del proyecto. También se revisa BCNF para las relaciones resultantes. Las decisiones, relaciones, tipos y restricciones se encuentran en [`Modelo-relacional.md`](./Modelo-relacional.md).
+La normalización reduce duplicidad y anomalías de inserción, actualización y eliminación. El resultado se lleva a tercera forma normal (3FN), que es adecuada para las necesidades transaccionales del proyecto. También se revisa BCNF para las relaciones resultantes. Las decisiones, relaciones, tipos y restricciones se encuentran en [`Modelo-relacional-normalizado.md`](./Modelo-relacional-normalizado.md).
 
 ## 2. Dependencias funcionales principales
 
