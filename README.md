@@ -28,10 +28,11 @@ Contiene la propuesta relacional normalizada:
 Contiene la implementación de la siguiente fase:
 
 - [`Informe-base-de-datos.md`](./Implementacion%20SQL/Informe-base-de-datos.md): documentación de la implementación, la carga, las consultas y su correspondencia con la normalización.
-- [`01-esquema.sql`](./Implementacion%20SQL/01-esquema.sql): esquema MySQL 8 con las 14 tablas, claves, restricciones e integridad referencial.
+- [`01-esquema.sql`](./Implementacion%20SQL/01-esquema.sql): esquema MySQL con las 14 tablas, claves, restricciones e integridad referencial.
 - [`02-datos.sql`](./Implementacion%20SQL/02-datos.sql): carga de 10 registros de demostración por tabla.
 - [`03-consultas.sql`](./Implementacion%20SQL/03-consultas.sql): diez consultas pertinentes para la gestión de eventos y conferencias.
 - [`Resultados-consultas.md`](./Implementacion%20SQL/Resultados-consultas.md): tablas con los resultados esperados para las diez consultas.
+- [`captura del diagrama de la base de datos en Dbeaver.png`](./Implementacion%20SQL/captura%20del%20diagrama%20de%20la%20base%20de%20datos%20en%20Dbeaver.png): diagrama de las tablas y sus relaciones generado en DBeaver.
 
 ## Descripción y alcance actual
 

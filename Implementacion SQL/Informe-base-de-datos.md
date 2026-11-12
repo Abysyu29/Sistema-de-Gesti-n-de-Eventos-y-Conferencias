@@ -11,7 +11,7 @@
 
 ## 1. Objetivo y alcance
 
-Esta fase implementa en MySQL 8.0.16 o superior el modelo relacional normalizado de la plataforma. El esquema permite gestionar usuarios, roles, eventos, espacios, inscripciones, tipos de entrada, entradas, servicios, pagos, accesos y evaluaciones. El diseño mantiene las relaciones y reglas definidas en el [modelo relacional normalizado](../Modelo%20Relacional%20Normalizado/Modelo-relacional-normalizado.md) y su [informe de normalización](../Modelo%20Relacional%20Normalizado/Informe-normalizacion.md).
+Esta fase implementa en MySQL de la plataforma. En el esquema permite gestionar usuarios, roles, eventos, espacios, inscripciones, tipos de entrada, entradas, servicios, pagos, accesos y evaluaciones. El diseño mantiene las relaciones y reglas definidas en el [modelo relacional normalizado](../Modelo%20Relacional%20Normalizado/Modelo-relacional-normalizado.md) y su [informe de normalización](../Modelo%20Relacional%20Normalizado/Informe-normalizacion.md).
 
 La carpeta contiene:
 
@@ -19,6 +19,7 @@ La carpeta contiene:
 - [`02-datos.sql`](./02-datos.sql): datos de demostración, con 10 registros en cada tabla.
 - [`03-consultas.sql`](./03-consultas.sql): diez consultas de análisis relacionadas con la operación de eventos.
 - [`Resultados-consultas.md`](./Resultados-consultas.md): tablas de resultados esperados de las consultas sobre los datos de demostración.
+- [`captura del diagrama de la base de datos en Dbeaver.png`](./captura%20del%20diagrama%20de%20la%20base%20de%20datos%20en%20Dbeaver.png): diagrama de las tablas y sus relaciones en DBeaver.
 
 ## 2. Motor y ejecución
 
@@ -46,7 +47,7 @@ La disponibilidad se calcula con el cupo total y las entradas activas. La asiste
 
 Cada una de las 14 tablas contiene diez filas de demostración. Hay un administrador, una organizadora, una conferencista y siete asistentes comunes. La usuaria con rol Organizador está asociada con los eventos; además, su inscripción a uno de ellos ilustra que organizar y participar son relaciones distintas. Los datos también incluyen modalidades presenciales, virtuales e híbridas, diferentes estados de pago y acceso, servicios asociados a tarifas y calificaciones. Las fechas representan la hora local de Colombia.
 
-La carga incluye identificadores explícitos para que los ejemplos y consultas sean reproducibles. MySQL continúa automáticamente desde el siguiente identificador disponible después de insertar estos datos.
+La carga incluye identificadores explícitos para que los ejemplos y consultas sean reproducibles.
 
 ## 5. Consultas
 
