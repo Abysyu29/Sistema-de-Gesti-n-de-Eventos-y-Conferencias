@@ -23,6 +23,16 @@ Contiene la propuesta relacional normalizada:
 - [`Modelo-relacional-normalizado.md`](./Modelo%20Relacional%20Normalizado/Modelo-relacional-normalizado.md): tablas, atributos, dominios o tipos de datos, claves, restricciones y relaciones.
 - [`Informe-normalizacion.md`](./Modelo%20Relacional%20Normalizado/Informe-normalizacion.md): dependencias funcionales y proceso de normalización hasta 3FN, con revisión de BCNF.
 
+### [`Implementacion SQL/`](./Implementacion%20SQL/)
+
+Contiene la implementación de la siguiente fase:
+
+- [`Informe-base-de-datos.md`](./Implementacion%20SQL/Informe-base-de-datos.md): documentación de la implementación, la carga, las consultas y su correspondencia con la normalización.
+- [`01-esquema.sql`](./Implementacion%20SQL/01-esquema.sql): esquema MySQL 8 con las 14 tablas, claves, restricciones e integridad referencial.
+- [`02-datos.sql`](./Implementacion%20SQL/02-datos.sql): carga de 10 registros de demostración por tabla.
+- [`03-consultas.sql`](./Implementacion%20SQL/03-consultas.sql): diez consultas pertinentes para la gestión de eventos y conferencias.
+- [`Resultados-consultas.md`](./Implementacion%20SQL/Resultados-consultas.md): tablas con los resultados esperados para las diez consultas.
+
 ## Descripción y alcance actual
 
 El modelo contempla usuarios y roles; eventos y espacios; inscripciones y tipos de entrada; entradas emitidas; servicios incluidos en las tarifas; pagos; registros de acceso; y evaluaciones de eventos. Las tablas puente representan las relaciones muchos a muchos, y las claves y restricciones descritas buscan preservar la integridad de la información.
@@ -31,4 +41,4 @@ El modelo relacional presenta la disponibilidad de entradas y los indicadores de
 
 ## Estado de la entrega
 
-El repositorio organiza los documentos en las dos carpetas anteriores: el modelo E-R de la primera entrega y el modelo relacional normalizado con su informe. El esquema propuesto alcanza tercera forma normal (3FN) y revisa BCNF según las dependencias funcionales documentadas en el informe.
+El repositorio organiza el material en tres fases: modelo E-R, modelo relacional normalizado e implementación SQL con informe, datos de prueba y consultas. El esquema corresponde al modelo normalizado, que alcanza tercera forma normal (3FN) y revisa BCNF según las dependencias funcionales documentadas en el informe.
