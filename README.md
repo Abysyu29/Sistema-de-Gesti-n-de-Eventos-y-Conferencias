@@ -34,6 +34,10 @@ Contiene la implementación de la siguiente fase:
 - [`Resultados-consultas.md`](./Implementacion%20SQL/Resultados-consultas.md): tablas con los resultados esperados para las diez consultas.
 - [`captura del diagrama de la base de datos en Dbeaver.png`](./Implementacion%20SQL/captura%20del%20diagrama%20de%20la%20base%20de%20datos%20en%20Dbeaver.png): diagrama de las tablas y sus relaciones generado en DBeaver.
 
+### Presentación del proyecto
+
+- [`Presentacion_Proyecto_Gestion_Eventos.pptx`](./Presentacion_Proyecto_Gestion_Eventos.pptx): presentación del análisis de la situación, modelos E-R y relacional, normalización, esquema SQL, carga de datos, consultas y resultados.
+
 ## Descripción y alcance actual
 
 El modelo contempla usuarios y roles; eventos y espacios; inscripciones y tipos de entrada; entradas emitidas; servicios incluidos en las tarifas; pagos; registros de acceso; y evaluaciones de eventos. Las tablas puente representan las relaciones muchos a muchos, y las claves y restricciones descritas buscan preservar la integridad de la información.
